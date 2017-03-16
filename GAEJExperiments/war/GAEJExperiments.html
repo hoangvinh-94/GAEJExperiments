@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Send Email</title>
+</head>
+<body>
+	<table border="1" style="">
+		<form method="post" action="GAEJEmailServlet" name="frm-sendMail">
+			<tr>
+				<td>Mail To:</td>
+				<td><input type="text" name="txt-mailto"/></td>
+			</tr>
+			<tr>
+				<td>Subject:</td>
+				<td><input type="text" name="txt-subject"/></td>
+			</tr>
+			<tr>
+				<td>Message:</td>
+				<td><textarea name="txt-message" onresize="" rows="4" cols="20"></textarea></td>
+			</tr>
+			<tr><input type="submit" name="sb-send" value="Send"/></tr>
+		</form>
+	</table>
+</body>
+</html>

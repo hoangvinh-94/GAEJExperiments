@@ -1,0 +1,3 @@
+# Module gaejexperiments
+# RPC service class, partial path of RPC policy file
+com.vinh.gaej.client.GreetingService, D36F0A7C0F993A0BDFAB50C748CACCEF.gwt.rpc
